@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 
 // Avoid APC causing random fatal errors per https://github.com/composer/composer/issues/264
