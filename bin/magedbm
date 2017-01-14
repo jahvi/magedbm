@@ -1,4 +1,4 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php
 
 // Avoid APC causing random fatal errors per https://github.com/composer/composer/issues/264
@@ -12,7 +12,8 @@ if (extension_loaded('apc') && ini_get('apc.enable_cli') && ini_get('apc.cache_b
 }
 
 $autoload_files = array(
-    __DIR__ . '/../vendor/autoload.php'
+    __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/../../../autoload.php'
 );
 
 foreach ($autoload_files as $autoload_file) {
