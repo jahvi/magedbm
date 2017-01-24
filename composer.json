@@ -12,7 +12,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.3.3",
-    "n98/magerun": "1.*",
+    "n98/magerun": "1.97.22",
     "aws/aws-sdk-php": "2.*",
     "piwik/ini": "dev-master",
     "ifsnop/mysqldump-php":"2.*",
